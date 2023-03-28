@@ -1,0 +1,21 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Lauriethefish/QuestPatcher.QMod/main/QuestPatcher.QMod/Resources/qmod.schema.json",
+  "_QPVersion": "0.1.1",
+  "name": "ThinSaberUI",
+  "id": "thinsaberui",
+  "author": "ThinSaberCore - Millzy\nThinSaberUI - Nuggo",
+  "version": "0.1.0",
+  "packageId": "com.beatgames.beatsaber",
+  "packageVersion": "1.28.0_4124311467",
+  "description": "A frontend for the mod, ThinSaberCore",
+  "dependencies": [
+    {
+      "version": "1.0.0-alpha1",
+      "id": "thinsabercore",
+      "downloadIfMissing": "https://github.com/MillzyDev/bsq-ThinSaberCore/releases/download/v1.0.0/ThinSaberCore.qmod"
+    }
+  ],
+  "modFiles": [],
+  "libraryFiles": [],
+  "fileCopies": []
+}

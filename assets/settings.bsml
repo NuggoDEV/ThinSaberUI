@@ -1,0 +1,24 @@
+<bg id='root' xmlns:xsi='http://www.w3.org/1501/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='https://raw.githubusercontent.com/RedBrumbler/Quest-BSML-Docs/gh-pages/schema.xsd'>
+
+    <horizontal pref-width="50" pref-height="30">
+        <vertical>
+            <toggle-setting apply-on-change="true" value="ModToggle" text="Enable ThinSaber" />
+
+            <horizontal>
+                <slider-setting apply-on-change="true" show-buttons="true" value="SaberLengthVal"
+                    id="SaberLengthID" text="Saber Length" min="0.1" max="10" increment="0.1"
+                    digits="1" />
+                <button text="Reset" on-click="ResetLength" pref-width="15" />
+            </horizontal>
+
+            <horizontal>
+                <slider-setting apply-on-change="true" show-buttons="true" value="SaberWidthVal"
+                    id="SaberWidthID" text="Saber Width" min="0.1" max="10" increment="0.1"
+                    digits="1" />
+                <button text="Reset" on-click="ResetWidth" pref-width="15" />
+            </horizontal>
+
+        </vertical>
+    </horizontal>
+</bg>
